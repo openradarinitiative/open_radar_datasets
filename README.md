@@ -1,10 +1,10 @@
 # Open Radar Datasets
 Welcome to the github page for the "Open Radar Datasets", a part of the "Open Radar Initative. 
 There are currently two datasets available;
-- Ground Surveillance Dataset
+- Outdoor Moving Object Dataset
 - Assisted living dataset
 
-## Ground Surveillance Dataset
+## Outdoor Moving Object Dataset
 A dataset in a "ground surveillance" setting. 
 The dataset has been collected with a stationary radar and targets moving in front of the radar. 
 The dataset has been collected using both collaborative and non-collaborative targets. 
@@ -28,4 +28,31 @@ Number of samples             |  RCS estimate
 SNR             |  Radial Velocity
 ![](assets/ground_surveillance/stats/SNR.png)  |  ![](assets/ground_surveillance/stats/radial_velocity.png)
 
+### Dataset content
+The dataset is a a python dictionary and primarily contains _doppler spectra_, but there is also some other information that might be useful.
+The ".npy" file contains a dictionary of _signatures_, each _signature_ corresponds to a full radar-track and contains again contains:
+| Field name        | Explanation    |
+| ------------- |:-------------:|
+| signature  |  Numpy array of the doppler spectra for that track|
+| ts         |  Timestamp for each spectra|
+| range      |  Measured range for the detection|
+| azimuth    |  Measured azimuth for the detectin|
+| velocity   |  Measured radial velocity|
+| snr_db     |  Estimated SNR in dB, estimated from a 1D CFAR|
+| x          |  Kalman-filtered x-position|
+| y          |  Kalman-filtered x-position|
+| z          |  Kalman-filtered x-position|
+| class_name |  Class name string|
+| radar_parameters |  Dict with the radar parameters|
+
+The _radar_parameters_ dict contain sensor and waveform-specific parameters
+
+| Field name        | Explanation    |
+| ------------- |:-------------:|
+| num_range_bins |  Number of range bins|
+| num_pulses |  Number of pulses in each frame|
+| num_antenna_elements |  Number of receiver elements sampled|
+| fc |  Center frequency|
+| bw |  Sampled Bandwidth|
+| prf |  PRF|
 
