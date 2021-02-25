@@ -64,7 +64,7 @@ The _radar_parameters_ dict contain sensor and waveform-specific parameters
 To attribute this dataset for you own use, please cite this paper:
 ```
 @INPROCEEDINGS{Gusland,
-author = {Gusland, Daniel and Christiansen, Jonas M and Torvik, B{\o}rge and Fioranelli, Francesco and Ritchie, Matthew},
+author = {Gusland, Daniel and Christiansen, Jonas M and Torvik, B{\o}rge and Fioranelli, Francesco, and Gurbuz, Sevgi and Ritchie, Matthew},
 booktitle={2021 IEEE International Radar Conference (RADAR)}, 
 title = {{Open Radar Initiative : Large Scale Dataset for Benchmarking of micro-Doppler Recognition Algorithms}},
 year={2021},
