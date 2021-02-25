@@ -5,7 +5,9 @@ There are currently two datasets available;
 - Assisted living dataset
 
 ## Outdoor Moving Object Dataset
-This dataset is released under CC BY-NC 4.0 license. 
+This dataset is released under CC BY-NC 4.0 license
+[<img src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png">](http://creativecommons.org/licenses/by-nc/4.0/)
+
 Attributions can be done by citing the paper as described below.
 
 A dataset in a "ground surveillance" setting. 
