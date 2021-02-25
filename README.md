@@ -5,6 +5,9 @@ There are currently two datasets available;
 - Assisted living dataset
 
 ## Outdoor Moving Object Dataset
+This dataset is released under CC BY-NC 4.0 license. 
+Attributions can be done by citing the paper as described below.
+
 A dataset in a "ground surveillance" setting. 
 The dataset has been collected with a stationary radar and targets moving in front of the radar. 
 The dataset has been collected using both collaborative and non-collaborative targets. 
@@ -55,4 +58,14 @@ The _radar_parameters_ dict contain sensor and waveform-specific parameters
 | fc |  Center frequency|
 | bw |  Sampled Bandwidth|
 | prf |  PRF|
+### Citation
+To attribute this dataset for you own use, please cite this paper:
+```
+@INPROCEEDINGS{Gusland,
+author = {Gusland, Daniel and Christiansen, Jonas M and Torvik, B{\o}rge and Fioranelli, Francesco and Ffioranellitudelftnl, Email and Ritchie, Matthew},
+booktitle={2021 IEEE International Radar Conference (RADAR)}, 
+title = {{Open Radar Initiative : Large Scale Dataset for Benchmarking of micro-Doppler Recognition Algorithms}},
+year={2021},
+}
 
+```
