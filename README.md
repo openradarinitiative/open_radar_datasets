@@ -1,5 +1,5 @@
 # Open Radar Datasets
-Welcome to the github page for the "Open Radar Datasets", a part of the "Open Radar Initative. 
+Welcome to the github page for the "Open Radar Datasets", a part of the "Open Radar Initative". 
 There are currently two datasets available;
 - Outdoor Moving Object Dataset
 - Assisted living dataset
