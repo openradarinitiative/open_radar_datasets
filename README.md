@@ -71,3 +71,6 @@ year={2021},
 }
 
 ```
+
+## Assisted living dataset
+The assisted living dataset can be found [here](https://github.com/ci4r/CI4R-Activity-Recognition-datasets/blob/master/README.md)
