@@ -2,8 +2,7 @@ import numpy as np
 import scipy.ndimage
 from matplotlib import pyplot as plt
 
-# filename = "sample_dataset.npy"
-filename = "/home/muras/dev_internett/open_radar_datasets/sample_dataset.npy"
+filename = "sample_dataset.npy"
 signatures = scipy.load(filename, allow_pickle=True)
 
 for signature in signatures:
